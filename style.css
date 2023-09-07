@@ -169,7 +169,7 @@ h2{
         }
 
 .images{
-    display: none;
+    display: auto;
     justify-items: center;
     align-items: center;
     text-align: center;
@@ -179,7 +179,7 @@ h2{
 
 .image{
     padding: 30px;
-    display:none;
+    display:auto;
     
 
 }
