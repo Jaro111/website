@@ -171,7 +171,6 @@ h2{
 .images{
     display: none;
     justify-items: center;
-    display:inline-flex;
     align-items: center;
     text-align: center;
     padding: 50px;
