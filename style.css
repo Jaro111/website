@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+/* font-family: 'Fira Sans Condensed', sans-serif;  
+
+/* /* ############ Head OF THE PAGE ##############     */
+
+
+/* ************ index.html ************ */
+#mandy{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    color:  black;
+    margin-top: 7px;
+    font-size: 60px;
+}
+*{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display: flex;
+    font-size: 300%;
+    margin-left: 1%;
+    float: left;
+    margin-top: 25px;
+    
+}
+.header{
+    height: 100px;
+    background: pink;
+    position:sticky;
+    top: 0;
+    z-index: 999;
+    border: solid black 1px
+
+}
+#navbar{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 3%;
+    margin-top: 1.5%;
+    display: flex;
+    float: right; 
+       
+ }
+
+#navbar a{
+    text-decoration:double;
+    color: #000000;
+    background-color: pink;
+    font-size: 40px;
+    padding-left: 10%; 
+
+            
+}
+
+#navbar :hover{
+    color: rgb(112, 0, 108); 
+}
+
+
+/* /* ############ CENTRE OF THE PAGE ##############     */
+
+
+img{
+    margin-top: 1%;
+    border: solid black 2px;
+    
+}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 0.3px;
+
+}
+
+h2{
+    tab-size: 1;
+    color:  rgb(112, 0, 108);
+    font-family: 'Architects Daughter';
+    font-weight: 50;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    
+}
+
+h2 span{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: rgb(112, 0, 108);
+    font-size: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ************ drinks.html ************ */
+
+h2{
+    tab-size: 1;
+    font-family: 'Architects Daughter';
+    font-weight: 50;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+
+    h2 span{
+        font-family: 'Fira Sans Condensed', sans-serif;
+        font-size: 50px;
+        background: white;
+        color: black;
+        display: flex;
+        justify-content: center;
+}
+        p{
+            font-family: 'Architects Daughter';
+            font-size: 50px; 
+            margin-bottom: 1px; 
+            color: rgb(112, 0, 108); ;
+        }
+
+        p span{
+        font-family: 'Architects Daughter';
+        font-size: 50px;  
+        }
+
+.images{
+    display: flex;
+    justify-items: center;
+    display:inline-flex;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.image{
+    padding: 30px;
+    
+
+}
+
+/* ************ form.html ************ */
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color: #585a59;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #585a59;
+  }
+
+  .container {
+    margin-top: 150px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+
+
+
+
+
+
+/* ************ pastries.html ************ */
+
+h2{
+    tab-size: 1;
+    font-family: 'Architects Daughter';
+    font-weight: 50;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+
+    h2 span{
+        font-family: 'Fira Sans Condensed', sans-serif;
+        font-size: 50px;
+        color: rgb(112, 0, 108);
+        display: flex;
+        justify-content: center;
+   
+}
+         p{
+            font-family: 'Architects Daughter';
+            font-size: 50px; 
+            margin-bottom: 1px; 
+         }   
+
+
+
+        p span{
+        font-family: 'Architects Daughter';
+        font-size: 50px;
+        
+        
+         }
+
+.images{
+    display: flex;
+    justify-items: center;
+    display:inline-flex;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    margin-top: 5px;
+
+}
+
+.image{
+    padding: 30px;
+}
+
+
+/* ************ reviews.html ************ */
+#rev{
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    
+  
+}
+#rev-cont{
+    display: flex;
+    justify-content: center;
+}
+
+/* /* ############  BOTTOM OF THE PAGE ##############     */
+
+.bottomBackground{
+    background: linear-gradient(45deg, rgb(78, 78, 78), rgb(212, 198, 198));
+    width: 60%; 
+    height: 100px;
+    margin-bottom:50px ;
+    display:flex;
+    justify-content:space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+
+    
+}
+
+a{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 70px;
+    color: black;
+    display:inline-flex;
+    justify-content:space-evenly;
+    justify-items:center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+#rights{
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    font-size: 25px;
+    color: white;
+    background: black ;
+    background-color: black;
+    margin-bottom: 0;
+
+}
+
+
+#icon{
+    border: none;
+    background: white;
+    padding: 5px;
+}
+
+
+
+/* ################# TABLE ################# */
+
+table{
+    width: 50%;
+    font-size: 30px;
+    display:flex;
+    margin-left: 700px;
+    margin-top: 150px;
+    margin-bottom: 170px;
+    
+    
+} 
+th, 
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+ th {
+    text-align: center; 
+ }
+
+td{
+    text-align: center;
+}
