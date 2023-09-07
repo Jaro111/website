@@ -15,15 +15,13 @@
 .mobile_container {
     display: none;
   }
-
-@media only screen and (max-width: 1500px) {
+  
+  @media only screen and (max-width: 667px) {
     .desktop_container {
       display: block;
     }
     .mobile_container {
-        {img {display:block;width:100}
-      display: none;
-
+      display: block;
     }
   }
 
@@ -36,20 +34,19 @@
     color:  black;
     margin-top: 7px;
     font-size: 60px;
+    text-decoration: none;
+
 }
-*{
-    margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
+
 
 h1{
     font-family: 'Fira Sans Condensed', sans-serif;
-    display: flex;
+    display:inline;
     font-size: 300%;
     margin-left: 1%;
     float: left;
     margin-top: 25px;
+
     
 }
 
@@ -65,13 +62,13 @@ h1{
     border: solid black 1px
  
         
-    }
-                                    
+}
+
 
 
 #navbar{
     font-family: 'Fira Sans Condensed', sans-serif;
-    display: flex;
+    display: inline;
     justify-content: space-evenly;
     margin-right: 3%;
     margin-top: 1.5%;
@@ -170,18 +167,19 @@ h2{
         }
 
 .images{
-    display: auto;
+    display: flex;
     justify-items: center;
     align-items: center;
     text-align: center;
     padding: 50px;
 
+
+
 }
 
 .image{
     padding: 30px;
-    display:auto;
-    
+
 
 }
 
@@ -264,7 +262,7 @@ h2{
          }
 
 .images{
-    display: flex;
+    display: none;
     justify-items: center;
     display:inline-flex;
     align-items: center;
@@ -272,7 +270,9 @@ h2{
     padding: 40px;
     margin-top: 5px;
 
+    
 }
+
 
 .image{
     padding: 30px;
@@ -296,8 +296,8 @@ h2{
 
 .bottomBackground{
     background: linear-gradient(45deg, rgb(78, 78, 78), rgb(212, 198, 198));
-    width: auto; 
-    height: auto;
+    width: 60%; 
+    height: 100px;
     margin-bottom:50px ;
     display:flex;
     justify-content:space-evenly;
@@ -311,7 +311,7 @@ h2{
 #soc{
     font-family: 'Fira Sans Condensed', sans-serif;
     text-decoration: none;
-    font-size: auto;
+    font-size: 70px;
     color: black;
     display:inline-flex;
     justify-content:space-evenly;
