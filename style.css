@@ -55,7 +55,7 @@ h1{
 
 
 
-@media screen and (max-width: 481px){.header{
+.header{
     height: 100px;
     background: pink;
     position:sticky;
@@ -65,7 +65,7 @@ h1{
  
         
     }
-                                    }
+                                    
 
 
 #navbar{
