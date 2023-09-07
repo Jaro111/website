@@ -8,7 +8,23 @@
 
 /* ************ index.html ************ */
 
-@media screen and (max-width: 481px){}
+.desktop_container {
+    display: block;
+}
+
+.mobile_container {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 667px) {
+    .desktop_container {
+      display: none;
+    }
+    .mobile_container {
+      display: block;
+    }
+  }
+
 
 
 #mandy{
