@@ -15,16 +15,14 @@
 .mobile_container {
     display: none;
   }
-  
-  @media only screen and (max-width: 667px) {
+
+@media only screen and (max-width: 667px) {
     .desktop_container {
       display: none;
     }
     .mobile_container {
       display: block;
-        and (max-device-width : 667px)
-        and (orientation : portrait) 
-        and (-webkit-min-device-pixel-ratio : 2)
+
     }
   }
 
@@ -57,7 +55,7 @@ h1{
 
 
 
-@media screen and (max-width: 481px){}.header{
+@media screen and (max-width: 481px){.header{
     height: 100px;
     background: pink;
     position:sticky;
@@ -67,7 +65,7 @@ h1{
  
         
     }
-    
+                                    }
 
 
 #navbar{
