@@ -7,6 +7,10 @@
 
 
 /* ************ index.html ************ */
+
+@media screen and (max-width: 481px){}
+
+
 #mandy{
     font-family: 'Fira Sans Condensed', sans-serif;
     display: flex;
@@ -30,15 +34,23 @@ h1{
     margin-top: 25px;
     
 }
-.header{
+
+
+
+
+@media screen and (max-width: 481px){}.header{
     height: 100px;
     background: pink;
     position:sticky;
     top: 0;
     z-index: 999;
     border: solid black 1px
+ 
+        
+    }
+    
 
-}
+
 #navbar{
     font-family: 'Fira Sans Condensed', sans-serif;
     display: flex;
